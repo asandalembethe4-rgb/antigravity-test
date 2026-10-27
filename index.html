@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AG Photography | Luxury Cape Town Photography Studio</title>
+  <meta name="description" content="AG Photography in Cape Town, South Africa. Specializing in Maternity, Weddings, Baby & Kids Shoots, Corporate Summits, Lifestyle and Proposals. Book online directly with AG Photography.">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+
+
+  <!-- ========================================================================
+       NAVIGATION HEADER
+       ======================================================================== -->
+  <header class="site-header">
+    <div class="container nav-content">
+      <a href="#home" class="brand-logo">
+        <span class="brand-title">AG Photography</span>
+        <span class="brand-tagline">Cape Town • Fine-Art Studio</span>
+      </a>
+
+      <ul class="nav-links">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+        <li><a href="#booking" class="nav-link">Book A Shoot</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#connect" class="nav-link">Contact</a></li>
+      </ul>
+
+      <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle Navigation">☰</button>
+    </div>
+  </header>
+
+  <!-- ========================================================================
+       CINEMATIC HERO SLIDESHOW SECTION
+       ======================================================================== -->
+  <section class="hero-section" id="home" aria-label="Hero Slideshow" tabindex="0">
+    <!-- Background Slideshow Images -->
+    <div class="hero-slideshow" id="heroSlideshow">
+      <div class="hero-slide active" data-index="0">
+        <img src="assets/images/maternity_beach_sunset.jpg" alt="Sunset Ocean Beach Maternity by AG Photography" class="hero-slide-img" fetchpriority="high">
+        <div class="slide-caption-tag">Sunset Beach Maternity • Cape Town</div>
+      </div>
+      <div class="hero-slide" data-index="1">
+        <img src="assets/images/wedding_couple_oceanview.jpg" alt="Oceanfront Couple Luxury Wedding by AG Photography" class="hero-slide-img" loading="lazy">
+        <div class="slide-caption-tag">Atlantic Seaboard Luxury Wedding</div>
+      </div>
+      <div class="hero-slide" data-index="2">
+        <img src="assets/images/fashion_editorial_red.jpg" alt="High-Fashion Editorial Portrait by AG Photography" class="hero-slide-img" loading="lazy">
+        <div class="slide-caption-tag">High-Fashion Editorial Session</div>
+      </div>
+      <div class="hero-slide" data-index="3">
+        <img src="assets/images/glamour_gold_gown.jpg" alt="Milestone Gala & Golden Evening Gown by AG Photography" class="hero-slide-img" loading="lazy">
+        <div class="slide-caption-tag">Milestone Celebration & Glamour</div>
+      </div>
+      <div class="hero-slide" data-index="4">
+        <img src="assets/images/luxury_evening_portrait.jpg" alt="Luxury Bridal & Evening Portrait by AG Photography" class="hero-slide-img" loading="lazy">
+        <div class="slide-caption-tag">Fine-Art Bridal & Evening Portrait</div>
+      </div>
+      <div class="hero-slide" data-index="5">
+        <img src="assets/images/wedding_gazebo_mountains.jpg" alt="Mountain View Garden Wedding Ceremony by AG Photography" class="hero-slide-img" loading="lazy">
+        <div class="slide-caption-tag">Twelve Apostles Mountain Ceremony</div>
+      </div>
+    </div>
+
+    <!-- Cinematic Vignette & Text Contrast Overlay -->
+    <div class="hero-overlay"></div>
+
+    <!-- Hero Content Overlay -->
+    <div class="container hero-container">
+      <div class="hero-text-content">
+        <div class="hero-tag">
+          Fine-Art Photography &amp; Visual Storytelling
+        </div>
+        <h1 class="hero-title">
+          Timeless Moments, <br>
+          <span class="gold-accent">Captured with Golden Artistry.</span>
+        </h1>
+        <div class="hero-actions">
+          <a href="#booking" class="btn-primary hero-cta-btn">
+            Book your precious moment with us
+          </a>
+          <a href="#portfolio" class="btn-outline">
+            View Real Work
+          </a>
+          <a href="https://wa.me/27612069726" target="_blank" rel="noopener noreferrer" class="btn-whatsapp-direct" title="Chat on WhatsApp">
+            <svg class="social-svg-icon" viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91C2.13 13.66 2.59 15.36 3.45 16.86L2.05 22L7.3 20.62C8.75 21.41 10.38 21.83 12.04 21.83C17.5 21.83 21.95 17.38 21.95 11.92C21.95 9.27 20.92 6.78 19.05 4.91C17.18 3.03 14.69 2 12.04 2ZM12.05 20.15C10.57 20.15 9.12 19.76 7.85 19.01L7.55 18.83L4.43 19.65L5.26 16.61L5.06 16.29C4.24 14.99 3.8 13.47 3.8 11.91C3.8 7.37 7.5 3.67 12.05 3.67C14.25 3.67 16.31 4.53 17.87 6.09C19.42 7.65 20.28 9.72 20.28 11.92C20.28 16.46 16.58 20.15 12.05 20.15ZM16.57 14.39C16.32 14.27 15.1 13.67 14.87 13.58C14.65 13.5 14.48 13.46 14.32 13.71C14.15 13.96 13.67 14.52 13.52 14.69C13.38 14.85 13.23 14.88 12.98 14.75C12.73 14.63 11.93 14.37 10.98 13.52C10.24 12.86 9.74 12.04 9.6 11.79C9.45 11.54 9.58 11.41 9.71 11.28C9.82 11.17 9.96 10.99 10.08 10.84C10.21 10.7 10.25 10.59 10.33 10.43C10.41 10.26 10.37 10.12 10.31 9.99C10.25 9.87 9.75 8.65 9.55 8.14C9.35 7.65 9.14 7.72 8.98 7.71C8.83 7.7 8.67 7.7 8.5 7.7C8.33 7.7 8.07 7.76 7.84 8.01C7.62 8.26 7 8.83 7 10C7 11.17 7.85 12.3 7.97 12.46C8.09 12.63 9.65 15.03 12.04 16.06C12.61 16.31 13.05 16.45 13.4 16.56C13.97 16.74 14.49 16.72 14.9 16.66C15.36 16.59 16.32 16.08 16.52 15.51C16.72 14.94 16.72 14.45 16.66 14.35C16.6 14.25 16.82 14.51 16.57 14.39Z"/></svg>
+            WhatsApp
+          </a>
+          <a href="tel:+27612069726" class="btn-phone-call" title="Call AG Photography directly">
+            <svg class="phone-svg-icon" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            Call: 061 206 9726
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Navigation Arrows -->
+    <button class="hero-nav-arrow prev" id="heroPrevBtn" aria-label="Previous Slide">‹</button>
+    <button class="hero-nav-arrow next" id="heroNextBtn" aria-label="Next Slide">›</button>
+
+    <!-- Slide Indicators -->
+    <div class="hero-indicators" id="heroIndicators" role="tablist" aria-label="Slide Indicators">
+      <button class="hero-indicator active" role="tab" aria-selected="true" aria-label="Slide 1" data-slide="0"></button>
+      <button class="hero-indicator" role="tab" aria-selected="false" aria-label="Slide 2" data-slide="1"></button>
+      <button class="hero-indicator" role="tab" aria-selected="false" aria-label="Slide 3" data-slide="2"></button>
+      <button class="hero-indicator" role="tab" aria-selected="false" aria-label="Slide 4" data-slide="3"></button>
+      <button class="hero-indicator" role="tab" aria-selected="false" aria-label="Slide 5" data-slide="4"></button>
+      <button class="hero-indicator" role="tab" aria-selected="false" aria-label="Slide 6" data-slide="5"></button>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       PORTFOLIO & SHOOT SHOWCASE
+       ======================================================================== -->
+  <section class="section-py" id="portfolio">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Authentic Portfolio Showcase</span>
+        <h2 class="section-title">Scenes &amp; Shoots We Have Captured</h2>
+        <p class="section-desc">
+          Browse real sessions captured across Cape Town and the Western Cape. Click on any photograph to view high-resolution details or book that exact style.
+        </p>
+      </div>
+
+      <!-- Filter Tabs -->
+      <div class="filter-tabs">
+        <button class="filter-btn active" data-filter="all">All Scenes</button>
+        <button class="filter-btn" data-filter="maternity">Maternity</button>
+        <button class="filter-btn" data-filter="weddings">Weddings</button>
+        <button class="filter-btn" data-filter="corporate">Corporate &amp; Summits</button>
+        <button class="filter-btn" data-filter="baby">Baby &amp; Kids</button>
+        <button class="filter-btn" data-filter="lifestyle">Lifestyle &amp; Fashion</button>
+      </div>
+
+      <!-- Dynamic Portfolio Grid -->
+      <div class="gallery-grid" id="galleryGrid">
+        <!-- Rendered dynamically by app.js with 100% authentic images -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       PROFESSIONAL PHOTOGRAPHY BOOKING FORM
+       ======================================================================== -->
+  <section class="section-py booking-section" id="booking">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Direct Studio Reservation</span>
+        <h2 class="section-title">Book Your Precious Moment With Us</h2>
+        <p class="section-desc">
+          Every moment tells a story. Tell us about yours, and let's plan a photoshoot you'll treasure forever.
+        </p>
+      </div>
+
+      <div class="booking-form-wrapper">
+        <form id="photographyBookingForm" class="booking-form" novalidate>
+          
+          <!-- Field Group: Client Information -->
+          <div class="form-block">
+            <h3 class="form-block-title">
+              <span class="form-block-num">1</span> Client Information
+            </h3>
+            
+            <div class="form-grid-2">
+              <div class="form-group">
+                <label for="clientFullName" class="form-label">Full Name <span class="req">*</span></label>
+                <input type="text" id="clientFullName" name="fullName" class="form-control" placeholder="e.g. Sarah Jenkins" required>
+                <span class="field-error" id="errFullName">Please enter your full name.</span>
+              </div>
+
+              <div class="form-group">
+                <label for="clientEmail" class="form-label">Email Address <span class="req">*</span></label>
+                <input type="email" id="clientEmail" name="email" class="form-control" placeholder="e.g. sarah@example.com" required>
+                <span class="field-error" id="errEmail">Please enter a valid email address.</span>
+              </div>
+
+              <div class="form-group">
+                <label for="clientPhone" class="form-label">Phone Number (with Country Code) <span class="req">*</span></label>
+                <input type="tel" id="clientPhone" name="phone" class="form-control" placeholder="e.g. +27 61 206 9726" required>
+                <span class="field-error" id="errPhone">Please enter your phone number with country code.</span>
+              </div>
+
+              <div class="form-group">
+                <label for="contactMethod" class="form-label">Preferred Contact Method <span class="req">*</span></label>
+                <select id="contactMethod" name="contactMethod" class="form-control" required>
+                  <option value="Phone / WhatsApp" selected>WhatsApp / Phone</option>
+                  <option value="Email">Email</option>
+                </select>
+              </div>
+            </div>
+          </div>
+
+          <!-- Field Group: Photoshoot Details -->
+          <div class="form-block">
+            <h3 class="form-block-title">
+              <span class="form-block-num">2</span> Photoshoot Details
+            </h3>
+
+            <div class="form-grid-2">
+              <div class="form-group">
+                <label for="shootType" class="form-label">Photography Session Type <span class="req">*</span></label>
+                <select id="shootType" name="shootType" class="form-control" required>
+                  <option value="" disabled selected>Select session category...</option>
+                  <option value="Wedding Photography">Wedding Photography</option>
+                  <option value="Engagement Photography">Engagement Photography</option>
+                  <option value="Couple Photography">Couple Photography</option>
+                  <option value="Family Photography">Family Photography</option>
+                  <option value="Maternity Photography">Maternity Photography</option>
+                  <option value="Newborn Photography">Newborn Photography</option>
+                  <option value="Birthday Photography">Birthday Photography</option>
+                  <option value="Graduation Photography">Graduation Photography</option>
+                  <option value="Portrait Photography">Portrait Photography</option>
+                  <option value="Corporate Photography">Corporate Photography</option>
+                  <option value="Other">Other</option>
+                </select>
+                <span class="field-error" id="errShootType">Please select a session type.</span>
+              </div>
+
+              <div class="form-group">
+                <label for="bookingPackage" class="form-label">Package or Service Required</label>
+                <select id="bookingPackage" name="package" class="form-control">
+                  <option value="The Signature Experience" selected>The Signature Experience (Popular)</option>
+                  <option value="The Essential Session">The Essential Session</option>
+                  <option value="The Full Luxury Story">The Full Luxury Story</option>
+                  <option value="Custom Bespoke Package">Custom Package / Bespoke Quote</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="bookingDate" class="form-label">Preferred Booking Date <span class="req">*</span></label>
+                <input type="date" id="bookingDate" name="bookingDate" class="form-control" required>
+                <span class="field-error" id="errDate">Please select a future date.</span>
+              </div>
+
+              <div class="form-group">
+                <label for="bookingTime" class="form-label">Preferred Start Time <span class="req">*</span></label>
+                <select id="bookingTime" name="bookingTime" class="form-control" required>
+                  <option value="" disabled selected>Select preferred time slot...</option>
+                  <option value="Morning Glow (08:30 - 10:30)">Morning Glow (08:30 - 10:30)</option>
+                  <option value="Midday Studio (11:30 - 13:30)">Midday Studio (11:30 - 13:30)</option>
+                  <option value="Afternoon Light (14:30 - 16:30)">Afternoon Light (14:30 - 16:30)</option>
+                  <option value="Sunset Golden Hour (17:00 - 19:00)">Sunset Golden Hour (17:00 - 19:00)</option>
+                  <option value="Full Day Event (Weddings/Summits)">Full Day Event (Weddings/Summits)</option>
+                </select>
+                <span class="field-error" id="errTime">Please choose a start time.</span>
+              </div>
+
+              <div class="form-group">
+                <label for="alternativeDate" class="form-label">Alternative Date (Optional)</label>
+                <input type="date" id="alternativeDate" name="alternativeDate" class="form-control">
+              </div>
+
+              <div class="form-group">
+                <label for="numberOfPeople" class="form-label">Number of People Participating <span class="req">*</span></label>
+                <input type="number" id="numberOfPeople" name="numberOfPeople" class="form-control" min="1" max="250" value="1" required>
+              </div>
+
+              <div class="form-group form-span-2">
+                <label for="bookingLocation" class="form-label">Photoshoot Location / Venue Preference</label>
+                <input type="text" id="bookingLocation" name="location" class="form-control" placeholder="e.g. Camps Bay Beach, Franschhoek Wine Estate, CTICC, or AG Studio">
+              </div>
+
+              <div class="form-group form-span-2">
+                <label for="bookingMessage" class="form-label">Additional Requests or Special Vision</label>
+                <textarea id="bookingMessage" name="message" class="form-control" rows="4" placeholder="Tell us about your story, wardrobe preferences, moodboard, or any questions..."></textarea>
+              </div>
+            </div>
+
+            <p class="form-preference-note">
+              <strong>Please note:</strong> Your requested date and time are preferences and are not confirmed until our studio reviews availability and confirms with you.
+            </p>
+          </div>
+
+          <!-- Deposit & Payment Policy Notice -->
+          <div class="form-policy-card">
+            <h4 class="policy-card-title">Booking Deposit &amp; Payment Policy</h4>
+            <ul class="policy-bullets">
+              <li>A <strong>50% deposit</strong> of the agreed package price is required to secure your booking date.</li>
+              <li>The remaining 50% balance must be paid according to the payment schedule agreed with the photographer (before or on the shoot day).</li>
+              <li><strong>Submitting this form does not mean the deposit has been paid.</strong> Official booking confirmation, invoice, and payment instructions will be provided directly by AG Photography.</li>
+              <li>Changes or cancellations must be communicated in advance, subject to our agreed cancellation and rescheduling policy.</li>
+              <li>We <strong>do not</strong> request or collect bank card details in this form.</li>
+            </ul>
+          </div>
+
+          <!-- Terms & Conditions Checkbox -->
+          <div class="form-terms-group">
+            <label class="terms-checkbox-label">
+              <input type="checkbox" id="termsAccepted" name="termsAccepted" required>
+              <span class="terms-label-text">
+                I have read and agree to the <a href="#termsModal" id="openTermsLink" class="gold-link">Photography Booking Terms and Conditions</a>. <span class="req">*</span>
+              </span>
+            </label>
+            <span class="field-error" id="errTerms">You must review and agree to the Terms and Conditions before submitting.</span>
+          </div>
+
+          <!-- Submission Feedback Container -->
+          <div id="bookingFeedback" class="booking-feedback" style="display: none;"></div>
+
+          <!-- Actions -->
+          <div class="form-submit-row">
+            <button type="submit" id="bookingSubmitBtn" class="btn-primary btn-submit-booking">
+              <span class="btn-text">Request My Booking</span>
+              <span class="btn-spinner" style="display:none;"><span class="spinner-ring"></span> Submitting your booking request...</span>
+            </button>
+            <a href="https://wa.me/27612069726" target="_blank" rel="noopener noreferrer" class="btn-outline">
+              <svg class="social-svg-icon" viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91C2.13 13.66 2.59 15.36 3.45 16.86L2.05 22L7.3 20.62C8.75 21.41 10.38 21.83 12.04 21.83C17.5 21.83 21.95 17.38 21.95 11.92C21.95 9.27 20.92 6.78 19.05 4.91C17.18 3.03 14.69 2 12.04 2ZM12.05 20.15C10.57 20.15 9.12 19.76 7.85 19.01L7.55 18.83L4.43 19.65L5.26 16.61L5.06 16.29C4.24 14.99 3.8 13.47 3.8 11.91C3.8 7.37 7.5 3.67 12.05 3.67C14.25 3.67 16.31 4.53 17.87 6.09C19.42 7.65 20.28 9.72 20.28 11.92C20.28 16.46 16.58 20.15 12.05 20.15ZM16.57 14.39C16.32 14.27 15.1 13.67 14.87 13.58C14.65 13.5 14.48 13.46 14.32 13.71C14.15 13.96 13.67 14.52 13.52 14.69C13.38 14.85 13.23 14.88 12.98 14.75C12.73 14.63 11.93 14.37 10.98 13.52C10.24 12.86 9.74 12.04 9.6 11.79C9.45 11.54 9.58 11.41 9.71 11.28C9.82 11.17 9.96 10.99 10.08 10.84C10.21 10.7 10.25 10.59 10.33 10.43C10.41 10.26 10.37 10.12 10.31 9.99C10.25 9.87 9.75 8.65 9.55 8.14C9.35 7.65 9.14 7.72 8.98 7.71C8.83 7.7 8.67 7.7 8.5 7.7C8.33 7.7 8.07 7.76 7.84 8.01C7.62 8.26 7 8.83 7 10C7 11.17 7.85 12.3 7.97 12.46C8.09 12.63 9.65 15.03 12.04 16.06C12.61 16.31 13.05 16.45 13.4 16.56C13.97 16.74 14.49 16.72 14.9 16.66C15.36 16.59 16.32 16.08 16.52 15.51C16.72 14.94 16.72 14.45 16.66 14.35C16.6 14.25 16.82 14.51 16.57 14.39Z"/></svg>
+              Chat via WhatsApp
+            </a>
+            <a href="tel:+27612069726" class="btn-outline">
+              <svg class="phone-svg-icon" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              Call: 061 206 9726
+            </a>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       ABOUT AG PHOTOGRAPHY
+       ======================================================================== -->
+  <section class="section-py" id="about">
+    <div class="container about-grid">
+      <div class="about-img-frame">
+        <img src="assets/images/corporate_event.jpg" alt="AG Photography Cape Winelands event">
+        <div class="about-exp-badge">
+          <h3>Cape Town</h3>
+          <p>Local Artistry &amp; Global Standards</p>
+        </div>
+      </div>
+
+      <div class="about-text-content">
+        <span class="section-tag">About The Studio</span>
+        <h2>AG Photography — Capturing What Truly Matters</h2>
+        <p>
+          At <strong>AG Photography</strong>, photography is far more than pressing a shutter — it is the delicate art of honoring milestones, preserving authentic emotions, and transforming transient moments into timeless heirlooms.
+        </p>
+        <p>
+          Based in magnificent Cape Town, South Africa, AG Photography brings an editorial eye, patient guidance, and tailored golden-hour lighting techniques to every session. Whether commanding the stage at international conferences at the CTICC, documenting high-profile weddings in Franschhoek, or capturing an expectant mother on the Atlantic cliffs, our signature warmth and professionalism ensure you feel radiant and confident throughout.
+        </p>
+
+        <div class="about-features-list">
+          <div class="about-feature-item">
+            <i>✓</i> Master of Natural &amp; Golden-Hour Lighting
+          </div>
+          <div class="about-feature-item">
+            <i>✓</i> Tailored Wardrobe &amp; Pose Direction
+          </div>
+          <div class="about-feature-item">
+            <i>✓</i> Fast-Track High-Res Digital Delivery
+          </div>
+          <div class="about-feature-item">
+            <i>✓</i> Certified Cape Town Location Expertise
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       SOCIAL MEDIA ACCESS HUB (WhatsApp, Instagram, Facebook)
+       ======================================================================== -->
+  <section class="section-py social-hub-section" id="connect">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Instant Access &amp; Communities</span>
+        <h2 class="section-title">Connect with AG Photography</h2>
+        <p class="section-desc">
+          We are always active on our direct communication channels. Message us directly on WhatsApp, explore our latest work on Instagram, and join our Facebook family.
+        </p>
+      </div>
+
+      <div class="social-cards-grid">
+        <!-- WhatsApp Hub Card -->
+        <div class="social-connect-card wa-card">
+          <div class="social-card-icon wa-icon-box">
+            <svg viewBox="0 0 24 24" width="34" height="34" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91C2.13 13.66 2.59 15.36 3.45 16.86L2.05 22L7.3 20.62C8.75 21.41 10.38 21.83 12.04 21.83C17.5 21.83 21.95 17.38 21.95 11.92C21.95 9.27 20.92 6.78 19.05 4.91C17.18 3.03 14.69 2 12.04 2ZM12.05 20.15C10.57 20.15 9.12 19.76 7.85 19.01L7.55 18.83L4.43 19.65L5.26 16.61L5.06 16.29C4.24 14.99 3.8 13.47 3.8 11.91C3.8 7.37 7.5 3.67 12.05 3.67C14.25 3.67 16.31 4.53 17.87 6.09C19.42 7.65 20.28 9.72 20.28 11.92C20.28 16.46 16.58 20.15 12.05 20.15ZM16.57 14.39C16.32 14.27 15.1 13.67 14.87 13.58C14.65 13.5 14.48 13.46 14.32 13.71C14.15 13.96 13.67 14.52 13.52 14.69C13.38 14.85 13.23 14.88 12.98 14.75C12.73 14.63 11.93 14.37 10.98 13.52C10.24 12.86 9.74 12.04 9.6 11.79C9.45 11.54 9.58 11.41 9.71 11.28C9.82 11.17 9.96 10.99 10.08 10.84C10.21 10.7 10.25 10.59 10.33 10.43C10.41 10.26 10.37 10.12 10.31 9.99C10.25 9.87 9.75 8.65 9.55 8.14C9.35 7.65 9.14 7.72 8.98 7.71C8.83 7.7 8.67 7.7 8.5 7.7C8.33 7.7 8.07 7.76 7.84 8.01C7.62 8.26 7 8.83 7 10C7 11.17 7.85 12.3 7.97 12.46C8.09 12.63 9.65 15.03 12.04 16.06C12.61 16.31 13.05 16.45 13.4 16.56C13.97 16.74 14.49 16.72 14.9 16.66C15.36 16.59 16.32 16.08 16.52 15.51C16.72 14.94 16.72 14.45 16.66 14.35C16.6 14.25 16.82 14.51 16.57 14.39Z"/></svg>
+          </div>
+          <h3>WhatsApp Direct Chat</h3>
+          <p>
+            Connect instantly with AG Photography for session availability, custom packages, or quick questions.
+          </p>
+          <a href="https://wa.me/27612069726" target="_blank" rel="noopener noreferrer" class="social-btn wa">
+            Start WhatsApp Chat →
+          </a>
+          <div style="margin-top: 14px; padding-top: 10px; border-top: 1px solid rgba(255,255,255,0.08); font-size: 0.92rem; color: #94a3b8;">
+            Direct Call Line: <a href="tel:+27612069726" style="color: #4ade80; font-weight: 700; text-decoration: none;">061 206 9726</a>
+          </div>
+        </div>
+
+        <!-- Instagram Hub Card -->
+        <div class="social-connect-card ig-card">
+          <div class="social-card-icon ig-icon-box">
+            <svg viewBox="0 0 24 24" width="34" height="34" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069ZM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0ZM12 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324ZM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8ZM18.406 4.155a1.44 1.44 0 1 0 0 2.881 1.44 1.44 0 0 0 0-2.881Z"/></svg>
+          </div>
+          <h3>Instagram Feed</h3>
+          <p>
+            Daily behind-the-scenes, recent maternity &amp; wedding reels, and client highlights across Cape Town.
+          </p>
+          <div style="font-size: 1.1rem; font-weight: 700; color: #f472b6;">
+            @iam_adeleyegold
+          </div>
+          <a href="https://www.instagram.com/iam_adeleyegold?xtok=MTF5d3hzcDdiamJpYQ%3D%3D&utm_source=qr" target="_blank" rel="noopener noreferrer" class="social-btn ig">
+            Follow on Instagram →
+          </a>
+        </div>
+
+        <!-- Facebook Hub Card -->
+        <div class="social-connect-card fb-card">
+          <div class="social-card-icon fb-icon-box">
+            <svg viewBox="0 0 24 24" width="34" height="34" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073Z"/></svg>
+          </div>
+          <h3>Facebook Page</h3>
+          <p>
+            Full client photo galleries, verified reviews, community updates, and event announcements.
+          </p>
+          <div style="font-size: 1.1rem; font-weight: 700; color: #60a5fa;">
+            AG Photography
+          </div>
+          <a href="https://www.facebook.com/adeleyeGoldPhotography" target="_blank" rel="noopener noreferrer" class="social-btn fb">
+            Visit Facebook Page →
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       CLIENT TESTIMONIALS & LOVE NOTES
+       ======================================================================== -->
+  <section class="section-py">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Client Experiences</span>
+        <h2 class="section-title">Words from Our Clients</h2>
+        <p class="section-desc">Read what couples, mothers, and executives have to say about working with AG Photography.</p>
+      </div>
+
+      <div class="testimonials-grid">
+        <div class="testimonial-card">
+          <div class="testimonial-stars" aria-label="5 stars">★★★★★</div>
+          <p class="testimonial-quote">
+            "AG Photography made my maternity shoot unforgettable. The photos look like they belong in Vogue! They made me feel so radiant and comfortable in front of the lens."
+          </p>
+          <div class="testimonial-author">
+            <div class="author-info">
+              <h4>Naledi M.</h4>
+              <p>Maternity Client • Cape Town</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="testimonial-stars" aria-label="5 stars">★★★★★</div>
+          <p class="testimonial-quote">
+            "AG Photography captured our wedding with the ocean view. The attention to detail from my shoes and jewelry to our portraits was pure perfection. Seamless booking and incredible delivery!"
+          </p>
+          <div class="testimonial-author">
+            <div class="author-info">
+              <h4>Kofi &amp; Grace T.</h4>
+              <p>Wedding Clients • Camps Bay</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="testimonial-stars" aria-label="5 stars">★★★★★</div>
+          <p class="testimonial-quote">
+            "We hired AG Photography for our international energy conference stage panel at the CTICC. Incredible professionalism, dynamic angles, and high quality delivery of press photos."
+          </p>
+          <div class="testimonial-author">
+            <div class="author-info">
+              <h4>Marcus Van Der Merwe</h4>
+              <p>Corporate Director • Cape Town</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       FOOTER
+       ======================================================================== -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand-col">
+        <span class="brand-title">AG Photography</span>
+        <span class="brand-tagline">Cape Town • Fine-Art Studio</span>
+        <p>
+          Boutique photography capturing timeless maternity, wedding, corporate summit, baby, and lifestyle moments in Cape Town and worldwide destinations.
+        </p>
+        <div class="top-bar-socials">
+          <a href="https://wa.me/27612069726" target="_blank" rel="noopener noreferrer" class="social-link-pill whatsapp">
+            <svg class="social-svg-icon" viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91C2.13 13.66 2.59 15.36 3.45 16.86L2.05 22L7.3 20.62C8.75 21.41 10.38 21.83 12.04 21.83C17.5 21.83 21.95 17.38 21.95 11.92C21.95 9.27 20.92 6.78 19.05 4.91C17.18 3.03 14.69 2 12.04 2ZM12.05 20.15C10.57 20.15 9.12 19.76 7.85 19.01L7.55 18.83L4.43 19.65L5.26 16.61L5.06 16.29C4.24 14.99 3.8 13.47 3.8 11.91C3.8 7.37 7.5 3.67 12.05 3.67C14.25 3.67 16.31 4.53 17.87 6.09C19.42 7.65 20.28 9.72 20.28 11.92C20.28 16.46 16.58 20.15 12.05 20.15ZM16.57 14.39C16.32 14.27 15.1 13.67 14.87 13.58C14.65 13.5 14.48 13.46 14.32 13.71C14.15 13.96 13.67 14.52 13.52 14.69C13.38 14.85 13.23 14.88 12.98 14.75C12.73 14.63 11.93 14.37 10.98 13.52C10.24 12.86 9.74 12.04 9.6 11.79C9.45 11.54 9.58 11.41 9.71 11.28C9.82 11.17 9.96 10.99 10.08 10.84C10.21 10.7 10.25 10.59 10.33 10.43C10.41 10.26 10.37 10.12 10.31 9.99C10.25 9.87 9.75 8.65 9.55 8.14C9.35 7.65 9.14 7.72 8.98 7.71C8.83 7.7 8.67 7.7 8.5 7.7C8.33 7.7 8.07 7.76 7.84 8.01C7.62 8.26 7 8.83 7 10C7 11.17 7.85 12.3 7.97 12.46C8.09 12.63 9.65 15.03 12.04 16.06C12.61 16.31 13.05 16.45 13.4 16.56C13.97 16.74 14.49 16.72 14.9 16.66C15.36 16.59 16.32 16.08 16.52 15.51C16.72 14.94 16.72 14.45 16.66 14.35C16.6 14.25 16.82 14.51 16.57 14.39Z"/></svg>
+            WhatsApp
+          </a>
+          <a href="https://www.instagram.com/iam_adeleyegold?xtok=MTF5d3hzcDdiamJpYQ%3D%3D&utm_source=qr" target="_blank" rel="noopener noreferrer" class="social-link-pill instagram">
+            <svg class="social-svg-icon" viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069ZM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0ZM12 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324ZM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8ZM18.406 4.155a1.44 1.44 0 1 0 0 2.881 1.44 1.44 0 0 0 0-2.881Z"/></svg>
+            Instagram
+          </a>
+          <a href="https://www.facebook.com/adeleyeGoldPhotography" target="_blank" rel="noopener noreferrer" class="social-link-pill facebook">
+            <svg class="social-svg-icon" viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073Z"/></svg>
+            Facebook
+          </a>
+        </div>
+      </div>
+
+      <div>
+        <h4 class="footer-heading">Shoot Categories</h4>
+        <ul class="footer-links-list">
+          <li><a href="#portfolio">Maternity Sessions</a></li>
+          <li><a href="#portfolio">Luxury Weddings</a></li>
+          <li><a href="#portfolio">Corporate &amp; Summits</a></li>
+          <li><a href="#portfolio">Baby &amp; Kids Studio</a></li>
+          <li><a href="#portfolio">Lifestyle &amp; Fashion</a></li>
+          <li><a href="#portfolio">Romantic Proposals</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4 class="footer-heading">Client Services</h4>
+        <ul class="footer-links-list">
+          <li><a href="#booking">Book A Photoshoot</a></li>
+          <li><a href="#portfolio">Client Portfolio</a></li>
+          <li><a href="#connect">Direct WhatsApp Support</a></li>
+          <li><a href="#about">About AG Photography</a></li>
+          <li><a href="#termsModal" id="footerTermsLink">Terms and Conditions</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4 class="footer-heading">Cape Town Studio</h4>
+        <div class="footer-contact-item">
+          <svg class="icon-geo" viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+          <span>Cape Town, Western Cape, South Africa</span>
+        </div>
+        <div class="footer-contact-item">
+          <svg class="social-svg-icon" viewBox="0 0 24 24" width="15" height="15" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91C2.13 13.66 2.59 15.36 3.45 16.86L2.05 22L7.3 20.62C8.75 21.41 10.38 21.83 12.04 21.83C17.5 21.83 21.95 17.38 21.95 11.92C21.95 9.27 20.92 6.78 19.05 4.91C17.18 3.03 14.69 2 12.04 2ZM12.05 20.15C10.57 20.15 9.12 19.76 7.85 19.01L7.55 18.83L4.43 19.65L5.26 16.61L5.06 16.29C4.24 14.99 3.8 13.47 3.8 11.91C3.8 7.37 7.5 3.67 12.05 3.67C14.25 3.67 16.31 4.53 17.87 6.09C19.42 7.65 20.28 9.72 20.28 11.92C20.28 16.46 16.58 20.15 12.05 20.15ZM16.57 14.39C16.32 14.27 15.1 13.67 14.87 13.58C14.65 13.5 14.48 13.46 14.32 13.71C14.15 13.96 13.67 14.52 13.52 14.69C13.38 14.85 13.23 14.88 12.98 14.75C12.73 14.63 11.93 14.37 10.98 13.52C10.24 12.86 9.74 12.04 9.6 11.79C9.45 11.54 9.58 11.41 9.71 11.28C9.82 11.17 9.96 10.99 10.08 10.84C10.21 10.7 10.25 10.59 10.33 10.43C10.41 10.26 10.37 10.12 10.31 9.99C10.25 9.87 9.75 8.65 9.55 8.14C9.35 7.65 9.14 7.72 8.98 7.71C8.83 7.7 8.67 7.7 8.5 7.7C8.33 7.7 8.07 7.76 7.84 8.01C7.62 8.26 7 8.83 7 10C7 11.17 7.85 12.3 7.97 12.46C8.09 12.63 9.65 15.03 12.04 16.06C12.61 16.31 13.05 16.45 13.4 16.56C13.97 16.74 14.49 16.72 14.9 16.66C15.36 16.59 16.32 16.08 16.52 15.51C16.72 14.94 16.72 14.45 16.66 14.35C16.6 14.25 16.82 14.51 16.57 14.39Z"/></svg>
+          <a href="https://wa.me/27612069726" target="_blank" rel="noopener noreferrer" style="color:inherit; text-decoration:none;">WhatsApp: <strong>Direct Chat</strong></a>
+        </div>
+        <div class="footer-contact-item">
+          <svg class="phone-svg-icon" viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          <a href="tel:+27612069726" style="color:inherit; text-decoration:none;">Calls: <strong>061 206 9726</strong></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <div>
+        © 2026 AG Photography. All rights reserved. Cape Town, South Africa.
+      </div>
+      <div style="display:flex; align-items:center; gap:16px;">
+        <a href="#termsModal" id="footerBottomTermsLink" class="gold-link" style="font-size:0.85rem;">Terms and Conditions</a>
+        <a href="https://wa.me/27612069726" target="_blank" rel="noopener noreferrer" class="social-link-pill whatsapp">
+          <svg class="social-svg-icon" viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91C2.13 13.66 2.59 15.36 3.45 16.86L2.05 22L7.3 20.62C8.75 21.41 10.38 21.83 12.04 21.83C17.5 21.83 21.95 17.38 21.95 11.92C21.95 9.27 20.92 6.78 19.05 4.91C17.18 3.03 14.69 2 12.04 2ZM12.05 20.15C10.57 20.15 9.12 19.76 7.85 19.01L7.55 18.83L4.43 19.65L5.26 16.61L5.06 16.29C4.24 14.99 3.8 13.47 3.8 11.91C3.8 7.37 7.5 3.67 12.05 3.67C14.25 3.67 16.31 4.53 17.87 6.09C19.42 7.65 20.28 9.72 20.28 11.92C20.28 16.46 16.58 20.15 12.05 20.15ZM16.57 14.39C16.32 14.27 15.1 13.67 14.87 13.58C14.65 13.5 14.48 13.46 14.32 13.71C14.15 13.96 13.67 14.52 13.52 14.69C13.38 14.85 13.23 14.88 12.98 14.75C12.73 14.63 11.93 14.37 10.98 13.52C10.24 12.86 9.74 12.04 9.6 11.79C9.45 11.54 9.58 11.41 9.71 11.28C9.82 11.17 9.96 10.99 10.08 10.84C10.21 10.7 10.25 10.59 10.33 10.43C10.41 10.26 10.37 10.12 10.31 9.99C10.25 9.87 9.75 8.65 9.55 8.14C9.35 7.65 9.14 7.72 8.98 7.71C8.83 7.7 8.67 7.7 8.5 7.7C8.33 7.7 8.07 7.76 7.84 8.01C7.62 8.26 7 8.83 7 10C7 11.17 7.85 12.3 7.97 12.46C8.09 12.63 9.65 15.03 12.04 16.06C12.61 16.31 13.05 16.45 13.4 16.56C13.97 16.74 14.49 16.72 14.9 16.66C15.36 16.59 16.32 16.08 16.52 15.51C16.72 14.94 16.72 14.45 16.66 14.35C16.6 14.25 16.82 14.51 16.57 14.39Z"/></svg>
+          WhatsApp
+        </a>
+        <a href="https://www.instagram.com/iam_adeleyegold?xtok=MTF5d3hzcDdiamJpYQ%3D%3D&utm_source=qr" target="_blank" rel="noopener noreferrer" class="social-link-pill instagram">
+          <svg class="social-svg-icon" viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069ZM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0ZM12 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324ZM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8ZM18.406 4.155a1.44 1.44 0 1 0 0 2.881 1.44 1.44 0 0 0 0-2.881Z"/></svg>
+          Instagram
+        </a>
+        <a href="https://www.facebook.com/adeleyeGoldPhotography" target="_blank" rel="noopener noreferrer" class="social-link-pill facebook">
+          <svg class="social-svg-icon" viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073Z"/></svg>
+          Facebook
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ========================================================================
+       FULLSCREEN LIGHTBOX MODAL
+       ======================================================================== -->
+  <div class="modal-backdrop" id="lightboxModal">
+    <div class="lightbox-content-box">
+      <button class="modal-close-btn" id="lightboxClose" aria-label="Close Lightbox">✕</button>
+      <div class="lightbox-img-wrap">
+        <img id="lightboxImg" src="" alt="AG Photography high-resolution view">
+      </div>
+      <div class="lightbox-footer-info">
+        <div>
+          <h3 id="lightboxTitle" style="color:#fff; font-size:1.3rem;">Shoot Title</h3>
+          <p id="lightboxMeta" style="color:var(--text-muted); font-size:0.85rem; margin-top:4px;">Location</p>
+          <p id="lightboxDesc" style="color:var(--text-muted); font-size:0.88rem; margin-top:8px; max-width:650px;">Description</p>
+        </div>
+        <a href="#booking" class="btn-primary" id="lightboxBookBtn">
+          Book This Style →
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========================================================================
+       PHOTOGRAPHY BOOKING TERMS AND CONDITIONS MODAL
+       ======================================================================== -->
+  <div class="modal-backdrop" id="termsModal" aria-hidden="true" role="dialog" aria-labelledby="termsModalTitle">
+    <div class="terms-modal-box">
+      <div class="terms-modal-header">
+        <h3 id="termsModalTitle">Photography Booking Terms &amp; Conditions</h3>
+        <button class="modal-close-btn" id="termsCloseBtn" aria-label="Close Terms">✕</button>
+      </div>
+      <div class="terms-modal-body">
+        <div class="terms-policy-section">
+          <h4>1. Booking Deposit</h4>
+          <p>A 50% deposit of the total photography package price is required to secure a booking. The booking is only confirmed once the deposit has been received. The remaining 50% balance must be paid by the agreed date, preferably before or on the day of the photoshoot.</p>
+        </div>
+
+        <div class="terms-policy-section">
+          <h4>2. Cancellations and Refunds</h4>
+          <p>Deposits and payments are subject to the cancellation policy agreed upon at the time of booking and applicable law. Clients must notify the photographer as early as possible if they wish to cancel. No-shows and last-minute cancellations may result in forfeiture of the deposit, subject to applicable law and the circumstances of the cancellation.</p>
+        </div>
+
+        <div class="terms-policy-section">
+          <h4>3. Rescheduling and Changes to Bookings</h4>
+          <p>Clients must notify the photographer in advance of any requested changes to the booking date, time, location, or photography package. Changes made without reasonable prior notice may result in additional charges, loss of the original booking slot, or forfeiture of the deposit where permitted by law. Any rescheduling is subject to the photographer's availability.</p>
+        </div>
+
+        <div class="terms-policy-section">
+          <h4>4. Late Arrival</h4>
+          <p>Clients are expected to arrive at the agreed time. Late arrival may reduce the available photoshoot time. Any extension will depend on the photographer's availability and may incur an additional fee.</p>
+        </div>
+
+        <div class="terms-policy-section">
+          <h4>5. Outstanding Payments</h4>
+          <p>The outstanding balance must be paid according to the agreed payment schedule. The photographer reserves the right to postpone delivery of the final edited photographs until the outstanding balance has been settled, where permitted by law.</p>
+        </div>
+
+        <div class="terms-policy-section">
+          <h4>6. Delivery of Photographs</h4>
+          <p>Edited photographs will be delivered within the estimated turnaround time communicated to the client. Delivery times may vary depending on workload, the selected package, and unforeseen circumstances.</p>
+        </div>
+
+        <div class="terms-policy-section">
+          <h4>7. Client Cooperation and Photography Locations</h4>
+          <p>Clients are responsible for arriving prepared and obtaining any necessary permissions for locations they choose, unless otherwise agreed. The photographer will make reasonable efforts to deliver the agreed service.</p>
+        </div>
+
+        <div class="terms-policy-section">
+          <h4>8. Agreement to Terms</h4>
+          <p>Clients must be able to review and accept these Terms and Conditions before completing a booking request. Submitting a booking requires agreeing to these terms via the designated checkbox on the booking form.</p>
+        </div>
+      </div>
+      <div class="terms-modal-footer">
+        <button type="button" class="btn-primary" id="acceptTermsBtn">I Understand &amp; Agree</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========================================================================
+       FLOATING WHATSAPP CHAT WIDGET
+       ======================================================================== -->
+  <div class="floating-wa-container">
+    <button class="floating-wa-btn" id="floatingWaBtn" aria-label="Chat on WhatsApp">
+      <span class="floating-wa-pulse"></span>
+      <svg viewBox="0 0 24 24" width="28" height="28" fill="#fff"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91C2.13 13.66 2.59 15.36 3.45 16.86L2.05 22L7.3 20.62C8.75 21.41 10.38 21.83 12.04 21.83C17.5 21.83 21.95 17.38 21.95 11.92C21.95 9.27 20.92 6.78 19.05 4.91C17.18 3.03 14.69 2 12.04 2ZM12.05 20.15C10.57 20.15 9.12 19.76 7.85 19.01L7.55 18.83L4.43 19.65L5.26 16.61L5.06 16.29C4.24 14.99 3.8 13.47 3.8 11.91C3.8 7.37 7.5 3.67 12.05 3.67C14.25 3.67 16.31 4.53 17.87 6.09C19.42 7.65 20.28 9.72 20.28 11.92C20.28 16.46 16.58 20.15 12.05 20.15ZM16.57 14.39C16.32 14.27 15.1 13.67 14.87 13.58C14.65 13.5 14.48 13.46 14.32 13.71C14.15 13.96 13.67 14.52 13.52 14.69C13.38 14.85 13.23 14.88 12.98 14.75C12.73 14.63 11.93 14.37 10.98 13.52C10.24 12.86 9.74 12.04 9.6 11.79C9.45 11.54 9.58 11.41 9.71 11.28C9.82 11.17 9.96 10.99 10.08 10.84C10.21 10.7 10.25 10.59 10.33 10.43C10.41 10.26 10.37 10.12 10.31 9.99C10.25 9.87 9.75 8.65 9.55 8.14C9.35 7.65 9.14 7.72 8.98 7.71C8.83 7.7 8.67 7.7 8.5 7.7C8.33 7.7 8.07 7.76 7.84 8.01C7.62 8.26 7 8.83 7 10C7 11.17 7.85 12.3 7.97 12.46C8.09 12.63 9.65 15.03 12.04 16.06C12.61 16.31 13.05 16.45 13.4 16.56C13.97 16.74 14.49 16.72 14.9 16.66C15.36 16.59 16.32 16.08 16.52 15.51C16.72 14.94 16.72 14.45 16.66 14.35C16.6 14.25 16.82 14.51 16.57 14.39Z"/></svg>
+    </button>
+
+    <div class="wa-chat-popup" id="waChatPopup">
+      <div class="wa-popup-header">
+        <div class="wa-avatar">
+          <img src="assets/images/corporate_event.jpg" alt="AG Photography Cape Town">
+        </div>
+        <div class="wa-header-text">
+          <h4>AG Photography</h4>
+          <p>Cape Town Studio • Online</p>
+        </div>
+        <button id="waClosePopup" style="margin-left:auto; background:transparent; border:none; color:#fff; font-size:1.1rem; cursor:pointer;" aria-label="Close WhatsApp Popup">✕</button>
+      </div>
+
+      <div class="wa-popup-body">
+        <div class="wa-bubble">
+          Hello! Welcome to AG Photography. How can we help bring your Cape Town shoot vision to life today?
+        </div>
+
+        <div class="wa-quick-options">
+          <button class="wa-option-btn" onclick="sendQuickWhatsApp('Maternity Session')">
+            Inquire about Maternity Shoots
+          </button>
+          <button class="wa-option-btn" onclick="sendQuickWhatsApp('Wedding or Elopement')">
+            Check Wedding &amp; Elopement Dates
+          </button>
+          <button class="wa-option-btn" onclick="sendQuickWhatsApp('Corporate or Summit Event')">
+            Corporate &amp; Summit Photography
+          </button>
+          <button class="wa-option-btn" onclick="sendQuickWhatsApp('Baby or Kids Shoot')">
+            Book a Baby &amp; Kids Studio Session
+          </button>
+          <button class="wa-option-btn" onclick="sendQuickWhatsApp('Romantic Cape Town Proposal')">
+            Plan a Romantic Sunset Proposal
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Script -->
+  <script src="js/app.js"></script>
+</body>
+</html>
